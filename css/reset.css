@@ -1,0 +1,33 @@
+/*
+Title: Reset common browser defined styles
+Author: Paul Lindale
+ */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, img a, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+article, aside, dialog, figure, footer, header, hgroup, nav, section {
+	display:block;
+}
+
+.fltl {
+	float: left;
+}

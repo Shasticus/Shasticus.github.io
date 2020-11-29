@@ -1,0 +1,96 @@
+.container{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #833c16;
+}
+
+header {
+	background:#131313;
+	border-color:#131313;
+	border-right-color: #131313;
+}
+
+#banner {
+	background-image:url(../images/header3.jpg);
+	display:block;
+	height:120px;
+	max-height:120px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+
+body{
+	background:black;
+	background-image:url(../images/bg3.jpg);
+	background-repeat: repeat-x;
+}
+
+.nav, .kittynav  {
+	background: #7a6a00;
+}
+
+#listnav a {
+	color: #131313;
+	background-image:url(../images/navbuttonxeel.jpg);
+	background-repeat: repeat-x;
+	opacity: .85;
+	filter:alpha(opacity=75); /* For IE8 and earlier */
+}
+
+#listnav a:hover {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#current a {
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+a:link{
+	color:#DA9900;
+}
+
+a:visited{
+	color:#A79100;
+}
+
+/*Style sheet swapper */
+.navtable{
+	background: #131313;
+}
+
+/*Style sheet swapper items*/
+input#style[type="submit"], h4#style{
+	color: black;
+	background: #A79100;
+}
+	
+.bod{
+	border-color: black;
+	background: black;
+}
+
+.inbod{
+}
+
+.footer{
+	border: 1px solid #A79100;
+	background-color: #131313;
+}
+
+.footer li{
+	border-right: 1px dashed #A79100;
+}
+
+.footer a:link {
+	text-decoration:underline;
+}
+
+.footer a:hover {
+	text-decoration:underline;
+}
+
+.footer a:link {
+	text-decoration:none;
+}

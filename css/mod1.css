@@ -1,0 +1,97 @@
+
+.container{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #FAFFC8;
+}
+
+header {
+	background:#3D3D3D;
+	border-color:#3D3D3D;
+}
+
+#banner {
+	background-image:url(../images/header2.jpg);
+	display:block;
+	height:120px;
+	max-height:120px;
+	text-indent: -9999px;
+	background-repeat: no-repeat;
+}
+
+body{
+	background:black;
+	background-image:url(../images/bg2.jpg);
+	background-repeat: repeat-x;
+}
+
+.nav, .kittynav  {
+	background: #892323;
+}
+
+#listnav li {
+	background:#833;
+}
+
+#listnav a {
+	color:#FAFFC8;
+	opacity: .5;
+	filter:alpha(opacity=50); /* For IE8 and earlier */
+	transition:opacity .75s, background .75s;
+	-moz-transition:opacity .75s, background .75s, -moz-transform .75s; /* Firefox 4 */
+	-webkit-transition:opacity 1s, background 1s, -webkit-transform 1s; /* Safari and Chrome */
+	-o-transition:opacity 1s, background 1s, -o-transform 1s; /* Opera */
+}
+
+#listnav a:hover {
+	color:#FAFFC8;
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#current a {
+	color:#FAFFC8;
+	opacity: 1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/*Style sheet swapper */
+.navtable{
+	/*background: #935001;*/
+}
+
+/*Style sheet swapper items*/
+input#style[type="submit"], h4#style{
+	color: black;
+	background:#b26101;
+}
+
+.bod{
+	border-color: #833;
+	background: #833;
+}
+
+.inbod a{
+	color:#FAFFC8;
+}
+
+a:visited{
+	color: grey;
+}
+
+.footer{
+	border-top: 1px dashed #3D3D3D;
+	background: #833;
+}
+
+.footer li{
+	border-right: 1px dashed #3D3D3D;
+}
+
+.footer a:link {
+	text-decoration:none;
+}
+
+.footer a:hover {
+	text-decoration:underline;
+}
